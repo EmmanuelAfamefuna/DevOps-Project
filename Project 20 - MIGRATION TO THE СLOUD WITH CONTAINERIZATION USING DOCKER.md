@@ -35,7 +35,7 @@ docker-ce:
 ![pix5](https://user-images.githubusercontent.com/74002629/208448222-d846880f-222c-4ee0-aa50-c44ed8f282f5.PNG)
 6. Create an SQL script that to create a user that will connect remotely. Create a file and name it ****create_user.sql**** and add code in the file:
 ```
-CREATE USER 'emmanuel'@'%' IDENTIFIED BY 'sulemanpw';
+CREATE USER 'emmanuel'@'%' IDENTIFIED BY 'emmanuel123';
 GRANT ALL PRIVILEGES ON *.* TO 'emmanuel'@'%';
 
 CREATE DATABASE toolingdb;
