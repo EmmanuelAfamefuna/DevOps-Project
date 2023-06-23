@@ -76,7 +76,7 @@ MYSQL_DBNAME=toolingdb
 **Note:** I had an error that stated:AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
 I solved it by going into the db_conn.php file and hardcoded my enviroment variable. This is not the recommended way of doing it but this was how I got mine to work.
 5. Get into the db_conn.php file: `sudo vi db_conn.php` and edit the Create connection variables.
-![prob9](https://user-images.githubusercontent.com/74002629/208464715-5c919bb7-115e-419a-9fee-247aca874cbd.PNG)
+
 6. Access your toolint site again: `http://<server-publicIP>:8085`
 ![pix13](https://user-images.githubusercontent.com/74002629/208465141-bba73216-8ff3-434b-9727-799f32b6c0ab.PNG)
 ![pix14](https://user-images.githubusercontent.com/74002629/208465156-510390a6-d568-44cf-93e5-ca1215aa1887.PNG)
