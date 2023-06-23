@@ -970,7 +970,7 @@ resource "aws_db_instance" "ACS-rds" {
   engine                 = "mysql"
   engine_version         = "5.7"
   instance_class         = "db.t2.micro"
-  db_name                = "sulemandb"
+  db_name                = "emmanueldb"
   username               = var.master-username
   password               = var.master-password
   parameter_group_name   = "default.mysql5.7"
