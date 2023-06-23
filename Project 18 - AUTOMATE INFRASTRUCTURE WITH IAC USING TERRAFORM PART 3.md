@@ -1744,7 +1744,7 @@ master-username = "emmanuel"
 account_no = "148029617773"
 
 tags = {
-  Owner-Email = "adaora.okoduwa@gmail.com"
+  Owner-Email = "emmanuelafam11@gmail.com"
   Managed-By  = "Terraform"
   Billing-Account = "1234567890"
 }
@@ -1772,7 +1772,7 @@ Create an S3 bucket to store Terraform state file. Note: S3 bucket names must be
 ##creating bucket for s3 backend
 
 resource "aws_s3_bucket" "terraform-state" {
-  bucket        = "sulemanpbl18"
+  bucket        = "emmanuel"
   force_destroy = true
 }
 resource "aws_s3_bucket_versioning" "version" {
