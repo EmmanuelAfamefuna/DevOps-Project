@@ -694,7 +694,7 @@ Based on our architecture we need to create Auto-scaling groups for bastion, ngi
 1. Create `asg-bastion-nginx.tf` and paste all the code snippet below;
 ```
 # creating sns topic for all the auto scaling groups
-resource "aws_sns_topic" "cynthia-sns" {
+resource "aws_sns_topic" "emmanuel-sns" {
 name = "Default_CloudWatch_Alarms_Topic"
 }
 ```
