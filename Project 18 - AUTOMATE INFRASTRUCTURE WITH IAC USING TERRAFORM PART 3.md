@@ -1819,7 +1819,7 @@ terraform {
  6. Verify the changes, if you opened AWS now to see what happened you should be able to see the following:
 - tfstatefile is now inside the S3 bucket
 - DynamoDB table which we create has an entry which includes state file status
-![pix5](https://user-images.githubusercontent.com/74002629/200835764-156977a8-b02b-446f-b2fc-0eeb3397cefe.PNG)
+
 ![pix6](https://user-images.githubusercontent.com/74002629/200835791-72c13d30-8b23-4451-93e5-6df6e83bb794.PNG)
 ![pix8](https://user-images.githubusercontent.com/74002629/200835887-2b8e1f6b-3549-4ab8-83a9-f2411217e830.PNG)
 ![pix9](https://user-images.githubusercontent.com/74002629/200835958-05387704-f520-42d3-b094-2f63bb4d5896.PNG)
